@@ -2,13 +2,15 @@
 <ul>
     <li>{{ book.title }}:{{ book.author }}</li>
 </ul>
-</template>
+</template
+
 <script>
 export default {
   name: 'BookItem',
   props: ['book']
 };
 </script>
+
 <style>
 li {
   display: block;
