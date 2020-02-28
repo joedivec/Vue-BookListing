@@ -2,10 +2,8 @@
 <div>
   <h1>{{ title
 
-  <ul
-    <v-for book in books>
-      <li>{{ book.title }}:{{ book.author }}</li>
-    </v-for>
+  <ul>
+      < v-for "book in books">{{ book.title }}:{{ book.author }}</li>
   </ul>
 </div>
 </template>
@@ -16,11 +14,11 @@ export default {
     data () {
       return {
         title: 'All Books,
-        books: {
+        books: [
           {title: 'Self Reliance', author: 'Ralph Waldo Emerson'},
           [title: 'American Gods', author: 'Neil Gaiman'],
           [title: 'Amusing Ourselves to Death', author: 'Neil Postman']
-        }
+        ]
       }
     }
 }
