@@ -1,5 +1,6 @@
 <template>
 <div>
+  <book-form></book-form>
   <h1>{{ title }}</h1>
   <ul>
       <book-item v-for="book in books" :book='book'></book-item>
@@ -8,6 +9,7 @@
 </template>
 
 <script>
+import BookForm from './BookForm';
 import BookItem from './BookItem';
 
 export default {
