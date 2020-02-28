@@ -3,7 +3,7 @@
   <h1>{{ title
 
   <ul>
-      < v-for "book in books">{{ book.title }}:{{ book.author }}</li>
+      <li v-for "book in books">{{ book.title }}:{{ book.author }}</li>
   </ul>
 </div>
 </template>
