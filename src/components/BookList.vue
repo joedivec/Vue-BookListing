@@ -7,7 +7,7 @@
 </div>
 </template>
 
-<script
+<script>
 import BookItem from './BookItem.vue';
 
 export default {
