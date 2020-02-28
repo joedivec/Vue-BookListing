@@ -7,9 +7,14 @@
 </div>
 </template>
 
-<script>
+<script
+import BookItem from './BookItem.vue'
+
 export default {
     name: 'book-list',
+    components: {
+      BookItem
+    },
     data () {
       return {
         title: 'All Books',
