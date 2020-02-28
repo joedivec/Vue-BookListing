@@ -28,6 +28,11 @@ export default {
             {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
         ]
       }
+    },
+    methods: {
+      appendBook(bookTitle, bookAuthor {
+        this.books.push({ title: bookTitle, author: bookAuthor });
+      }
     }
 }
 </script>
