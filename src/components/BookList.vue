@@ -1,10 +1,11 @@
 <template>
 <div>
-  <book-form></book-form>
   <h1>{{ title }}</h1>
   <ul>
       <book-item v-for="book in books" :book='book'></book-item>
   </ul>
+  <hr>
+  <book-form @addBook='appendBook'></book-form>
 </div>
 </template>
 
