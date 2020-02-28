@@ -12,7 +12,7 @@ export default {
     name: 'book-list',
     data () {
       return {
-        title: 'All Books,
+        title: 'All Books',
         books: [
           {title: 'Self Reliance', author: 'Ralph Waldo Emerson'},
           [title: 'American Gods', author: 'Neil Gaiman'],
